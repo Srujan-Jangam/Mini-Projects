@@ -48,7 +48,8 @@
 
 **📂 Project Structure**
 
-/  
+```
+/
 ├── index.html
 ├── styles.css
 ├── assets/
@@ -58,6 +59,10 @@
 │ ├── player_icon2.png
 │ ├── ...etc
 └── README.md
+```
+
+---
+
 
 **What This Project Does NOT Include (Yet)**
 
@@ -96,5 +101,4 @@
 ---
 
 **📸 Screenshot**
-
 ![Screenshot](image.png)
