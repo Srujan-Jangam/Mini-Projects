@@ -1,4 +1,5 @@
 **Spotify Clone — HTML / CSS Project**
+    
     This is a front-end clone of Spotify’s UI built using pure HTML and CSS.
     No frameworks, no JS functionality — strictly interface replication.
     The goal is to practice layout, positioning, responsive UI, and component structure.
