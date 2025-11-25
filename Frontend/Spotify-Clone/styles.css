@@ -222,37 +222,98 @@ body {
   height: 72px;
 }
 
-.album{
+.album {
   width: 25%;
+  display: flex;
+  align-items: center;
+  padding-left: 0.75rem;
 }
 
-.player{
+.album-img{
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.album-info{
+  margin: 0 0.75rem 0 0.75rem;
+
+}
+
+.album-title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+
+.album-desc {
+  margin: 0.125rem 0 0;
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+.add-icon {
+  font-size: 1.125rem;
+  opacity: 0.8;
+
+}
+
+.player {
   width: 50%;
 }
 
-.player-controls{
+.player-controls {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.controls{
+.controls {
   width: 25%;
 }
 
-.player-control-icon{
+.player-control-icon {
   height: 1rem;
   margin-right: 2rem;
   opacity: 0.7;
 }
 
-.player-control-icon:hover{
+.player-control-icon:hover {
   opacity: 1;
   transform: scale(1.05);
-  
 }
 
-.play-pause{
+.play-pause {
   height: 2.25rem;
   opacity: 1;
+}
+
+.playback-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar {
+  width: 70%;
+  appearance: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track {
+  background-color: #ddd;
+  border-radius: 6.25rem;
+  height: 0.2rem;
+}
+
+.progress-bar::-webkit-slider-thumb {
+  appearance: none;
+  height: 1rem;
+  width: 1rem;
+  background-color: #1bd760;
+  border-radius: 50%;
+  margin-top: -0.375rem;
 }

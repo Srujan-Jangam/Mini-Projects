@@ -186,7 +186,19 @@
         </div>
       </div>
       <div class="music-player">
-        <div class="album"></div>
+        <div class="album">
+          <img
+            src="./assets/album-img.jpeg"
+            class="album-img"
+            alt="album-img"
+          />
+          <div class="album-info">
+            <p class="album-title">Tere Liye</p>
+            <p class="album-desc">Atif Aslam, Shreya Goshal</p>
+          </div>
+          <i class="fa-solid fa-circle-plus"></i>
+        </div>
+
         <div class="player">
           <div class="player-controls">
             <img
@@ -217,7 +229,14 @@
           </div>
           <div class="playback-bar">
             <span class="curr-time">00:00</span>
-            <input type="range" min="0" max="0"class="progress-bar" step="1">
+            <input
+              type="range"
+              id="progress-bar"
+              min="0"
+              max="213"
+              step="1"
+              class="progress-bar"
+            />
             <span class="total-time">3:33</span>
           </div>
         </div>
